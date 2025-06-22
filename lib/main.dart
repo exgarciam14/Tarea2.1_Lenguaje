@@ -85,7 +85,7 @@ class MainScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 32),
-            //Botón de Continue colocado en la parte inferior
+            //Boton de Continue 
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
@@ -111,7 +111,7 @@ class MainScreen extends StatelessWidget {
   }
 }
 
-//Clase para crear cada fila con su icono, titulo, descripción y color del icono.
+//Clase para crear cada fila con su icono.
 class DrawerOptions extends StatelessWidget {
   final variables option;
 
@@ -150,6 +150,7 @@ class DrawerOptions extends StatelessWidget {
     );
   }
 }
+//creando variables
 class variables {
   final IconData icon;
   final Color color;
